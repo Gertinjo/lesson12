@@ -1,3 +1,47 @@
 h1 {
     color: green;
+    letter-spacing: 20px;
+    word-spacing: 20px;
+    font-family: 'Fake Identity', sans-serif;
+
+}
+p {
+    text-indent: 10px;
+    text-align: center;
+    writing-mode: vertical-lr;
+    font-family: 'Karmilla', sans-serif;
+                                                
+}
+h2 {
+    text-decoration: overline;
+    font-family: 'White Dahlia', sans-serif;
+                                                
+}
+h3 {
+    text-decoration: line-through;
+}
+h4 {
+    text-decoration: underline;
+}
+img {
+    /* clip-path: polygon(50% 0%, 0% 100%, 100% 100%); */
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%);
+    transition: 1s ease-in-out;
+}
+img:hover {
+    filter: grayscale(0%);
+}
+@font-face {
+    font-family: "Spooky Market";
+    src: url("font/SpookyMarket.otf");
+}
+a {
+    text-decoration: none;
+    color:green;
+
+}
+a:hover {
+    color: red;
 }
